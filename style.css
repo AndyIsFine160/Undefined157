@@ -54,7 +54,6 @@ a:hover {
     margin-top: 100px;
 }
 .card {
-    width: 325px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
@@ -120,6 +119,12 @@ a:hover {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
+}
+.disable-link {
+    text-decoration: none;
+    color: #fff;
+    cursor: default;
+    pointer-events: none;
 }
 @-webkit-keyframes fadeIn {
     from {opacity: 0;} 
